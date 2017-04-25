@@ -68,10 +68,9 @@
 	<build>
 		<plugins>
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
-				<configuration>
-					<version>2.5</version>
-				</configuration>
+				<version>2.0</version>
 			</plugin>
 			<!-- 配置插件 -->
 			<plugin>
